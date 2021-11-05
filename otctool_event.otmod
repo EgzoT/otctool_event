@@ -1,0 +1,13 @@
+Module
+  name: otctool_event
+  description: Add JavaScript like events
+  author: EgzoT
+  website: https://github.com/EgzoT/otctool_event
+  version: 1.0
+  reloadable: true
+
+  autoload: true
+  autoload-priority: 800
+
+  @onLoad: dofile 'event'
+  
